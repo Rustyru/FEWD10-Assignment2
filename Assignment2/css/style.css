@@ -46,6 +46,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+    max-width: 960px;
      color: #000;
      font-size: 13px;
      line-height: 1.4;
@@ -65,7 +66,7 @@ h2{
     color: white;
     font-weight: 600;
     font-size: 24px;
-    margin-left: 17%;
+    text-align: center;
     padding: 5%;
 }
 h3{
@@ -86,16 +87,18 @@ h3{
 }
 
 header {
-    background: red;
-
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
-    height: 400px;
+    padding-bottom: 10%
+    
 }
 
 footer {
-    background: blue;
-
+    background: black;
+    padding:10%;
+    color: white;
+    text-align: center;
+    
 }
 
 /******************************************
@@ -110,9 +113,41 @@ footer {
     text-align: center;
     font-weight: 600; /*looks better than extra-bold*/
 }
+.signup{
+    background: yellow;
+    padding: 10px;
+}
+.signupnow{
+    width: 120px;
+    margin:0 auto;/*http://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page*/
+    background: blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600; /*looks better than extra-bold*/
+}
+
+.subfooter{
+    color:yellow;
+    font-weight: 800;
+    font-size: 24px;
+}
 
 #listofbenefits{
     margin-left: 10%;
     margin-right: 45%
+}
+
+#testimonial{
+    background: url(../images/testimonial_bg.jpg);
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+}
+blockquote{
+    text-align: center;
+    margin: 0% 25% 0% 25%;
+    padding: 5px;
 }
 
